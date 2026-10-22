@@ -12,9 +12,11 @@ button,input{font:inherit}
 .chip.on{background:#2f5fa8;color:#fff}
 .tabs .chip{flex:1}
 .card{background:#d5e1f0;border:1px solid #14233a;border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:12px}
-.top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
-.top b{font-size:16px;letter-spacing:.3px}
-.tag{font-size:11px;font-weight:700;background:#14233a;color:#fff;border-radius:8px;padding:4px 8px}
+.top{display:flex;align-items:center;gap:8px}
+.n{flex:1;min-width:0;height:44px;border:1px solid #14233a;border-radius:10px;padding:0 12px;font-size:15px;font-weight:700;letter-spacing:.3px;background:#fff;color:#14233a}
+.tag{height:44px;font-size:12px;font-weight:700;background:#14233a;color:#fff;border:0;border-radius:10px;padding:0 12px}
+.del{width:44px;height:44px;border-radius:10px;border:1px solid #14233a;background:#fff;color:#b3261e;font-size:16px;font-weight:700}
+.add{height:48px;border-radius:12px;border:2px dashed #2f5fa8;background:transparent;color:#2f5fa8;font-size:15px;font-weight:700}
 .lbl{font-size:13px;font-weight:700;width:52px}
 .w{flex:1;min-width:0;height:44px;border:1px solid #14233a;border-radius:10px;padding:0 12px;font-size:16px;background:#fff;color:#14233a}
 .reset{height:48px;border-radius:12px;border:1px solid #14233a;background:#fff;color:#14233a;font-size:15px;font-weight:700}
